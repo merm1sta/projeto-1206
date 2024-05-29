@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/enigmas/css/general-style.css">
+  <link rel="stylesheet" href="/enigmas/css/grid.css">
+  <link rel="stylesheet" href="/enigmas/css/home.css">
+  <link rel="stylesheet" href="/enigmas/css/normalize.css">
+  <link rel="stylesheet" href="/enigmas/css/style-home.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="/enigmas/enigmas.html" class="grid-4">
+      </a>
+    </div>
+  </header>
+
+  <section class="introducao-int int-home">
+    <div class="conteiner">
+      <h1>QUE ISSO, JULYA BIAZOTO?</h1>
+    </div>
+  </section>
+
+  <section class="home container">
+    <div class="grid-16">
+      <h2>Breve Explicação</h2>
+      <p>
+        Antes que você tente me chantagear perguntando onde isso vai dar, apenas dê início ao game. Você tem direito a três cartões de ajuda dos universitários (no caso, eu), boa sorte!
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-4 footer-contato">
+          <h3>Desvende (USE UM TRADUTOR DE CÓD. BINÁRIO)</h3>
+          <ul>
+            <li>
+                01000001 00100000 01100011 01101000 01100001 01110110 01100101 00100000 01110000 01100001 01110010 01100001 00100000 01100100 01100101 01100011 01101111 01100100 01101001 01100110 01101001 01100011 01100001 01110010 00100000 11101001 00111010 00100000 01001100 01101001 01110110 01101001 01100001 00100000 01000010 01101001 01100001 01111010 01101111 01110100 01101111 
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer-redes">
+          <h3>Aplique aqui</h3>
+          <ul>
+            <li>GQ2V3oeGF_3E0xYxPxcc0E0OqN6MdZM4TbWE2Aw6EOm04GTKO5w7rsRIfeZb_shN</li>
+            <li class="decod"><a href="https://www.invertexto.com/texto-criptografado">Clique aqui!</a></li>
+            <li> 
+              <form action="">
+                <div class="inputs">
+                    <input type="password" id="password"  placeholder="Password">
+                    <div class="underline"></div>
+                </div>
+                <input type="submit" onclick="log(); return false">
+            </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="direitos">
+      <div class="container">
+        <p class="grid-16">Eu te amo.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function log(){
+        var senha = document.getElementById('password').value;
+
+        if(senha == "eusouapretinhamaisgostosadomundo!"){
+            alert('Parabéns, gatinha!');
+            location.href = "/valentines-quiz-main/index.html";
+        }else{
+            alert('Use a máquina a seu favor!');
+        }
+    }
+  </script>
+
+</body>
+
+</html>
